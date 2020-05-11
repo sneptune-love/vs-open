@@ -1,6 +1,6 @@
 {
   "name": "vs-open",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "对vscode code命令的简单封装",
   "main": "index.js",
   "scripts": {
