@@ -21,7 +21,7 @@
     "url": "https://github.com/powercandy/vs-open/issues"
   },
   "homepage": "https://github.com/powercandy/vs-open#readme",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^5.1.0",
     "minimist": "^1.2.5",
     "shelljs": "^0.8.4"
