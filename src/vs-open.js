@@ -2,13 +2,18 @@
 
 const path = require('path');
 
+const fs = require('fs');
+
 const program = require('commander');
 
-var shell = require('shelljs');
+const shell = require('shelljs');
 
-let filePath = "";
+let pkg = fs.readFileSync(path.join(__dirname, '..', 'package.json'), 'utf-8');
+
+let version = JSON.parse(pkg).version;
 
 program
+        .version(version)
         .arguments('<path>')
         .usage('<path> [options]')
         .action(item => filePath = path.resolve(item))
