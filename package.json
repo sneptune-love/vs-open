@@ -1,6 +1,6 @@
 {
   "name": "vs-open",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "对vscode code命令的简单封装",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "node ./bin/vs-open.js"
   },
   "bin": {
-    "vs": "./bin/vs-open.js"
+    "vs": "./bin/vs"
   },
   "repository": {
     "type": "git",
