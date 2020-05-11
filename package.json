@@ -1,0 +1,29 @@
+{
+  "name": "vs-open",
+  "version": "1.0.0",
+  "description": "对vscode code命令的简单封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./bin/vs-open.js"
+  },
+  "bin": {
+    "vs": "./bin/vs-open.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powercandy/vs-open.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powercandy/vs-open/issues"
+  },
+  "homepage": "https://github.com/powercandy/vs-open#readme",
+  "devDependencies": {
+    "commander": "^5.1.0",
+    "minimist": "^1.2.5",
+    "shelljs": "^0.8.4"
+  }
+}
